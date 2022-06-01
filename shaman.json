@@ -1,0 +1,21 @@
+{
+  "name": "event-stream-sample-solution",
+  "projects": [
+    {
+      "name": "client",
+      "environment": "node",
+      "type": "client",
+      "path": "client",
+      "runtimeDependencies": [
+        "server"
+      ]
+    },
+    {
+      "name": "server",
+      "environment": "node",
+      "type": "server",
+      "path": "server",
+      "include": []
+    }
+  ]
+}
